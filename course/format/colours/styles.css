@@ -1,0 +1,22 @@
+.course-content ul.colours {margin:0;}
+.course-content ul.colours li.section {list-style: none;margin:5px 0 0 0;padding:0;}
+.course-content ul.colours li.section .content {margin:0 40px;}
+.course-content ul.colours li.section .left {width:40px;float:left;text-align:center;}
+.course-content ul.colours li.section .right {width:40px;float:right;text-align:center;}
+.jumpmenu {text-align:center;}
+
+.format_colours_recent_holder {}
+.format_colours_recent_holder div.format_colours_recent {width:16px;height:16px;border:solid black 1px;margin:3px;float:left;cursor:pointer}
+.section-header {min-height:2em}
+
+.course-content ul.colours .current {
+    background:#efefef;
+    border:3px solid black !important;
+}
+
+.path-course-view .colours.colourtopics .content,
+.path-course-view .colours.colourtopics .section,
+.course-content .colours.colourtopics .section.main .content,
+.course-content .colours.colourtopics .section.main .section {background: transparent;}
+
+ul.colours .format_colour_editcolours, ul.colours .format_colour_copycolours {display:inline-block;}
