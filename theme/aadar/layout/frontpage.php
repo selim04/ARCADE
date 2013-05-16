@@ -200,6 +200,8 @@ $contextid = $context->id;
                 <?php  if ($hassidepre) { ?>
                 <div id="region-pre" class="block-region">
                     <div class="region-content">
+
+<img src="http://ki.se/content/1/c6/14/34/88/ARCADErsdh.JPG">
                         <?php echo $OUTPUT->blocks_for_region('side-pre') ?>
                     </div>
                 </div>
@@ -227,8 +229,9 @@ $contextid = $context->id;
 
 <P align=left>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.concerto-sesac.eu/squelettes/images/home/logo_eu.gif">&nbsp;&nbsp;&nbsp;<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQii1haFski496FD2GkTiusZv7uJ5uexrfzO6Dj-oym6SkXl-K8">
+
 </p>     
-        <p> St. Jonhs National Academy of Health Science </p>
+        <p> St. Johns National Academy of Health Science </p>
 
         <?php /*echo page_doc_link(get_string('moodledocslink')) */?>
         </p>
