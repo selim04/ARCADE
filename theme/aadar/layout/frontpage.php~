@@ -224,13 +224,19 @@ $contextid = $context->id;
 
     <div id="page-footer" class="wrapper">
         <p class="helplink">
-        <?php echo page_doc_link(get_string('moodledocslink')) ?>
+
+<P align=left>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.concerto-sesac.eu/squelettes/images/home/logo_eu.gif">&nbsp;&nbsp;&nbsp;<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQii1haFski496FD2GkTiusZv7uJ5uexrfzO6Dj-oym6SkXl-K8">
+</p>     
+        <p> St. Jonhs National Academy of Health Science </p>
+
+        <?php /*echo page_doc_link(get_string('moodledocslink')) */?>
         </p>
 
         <?php
         echo $OUTPUT->login_info();
         echo $OUTPUT->home_link();
-        echo $OUTPUT->standard_footer_html();
+        /*echo $OUTPUT->standard_footer_html();*/
         ?>
     </div>
 
