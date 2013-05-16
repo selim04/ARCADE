@@ -69,7 +69,16 @@ echo $OUTPUT->doctype() ?>
 <!-- START OF HEADER -->
     <div id="page-header">
 		<div id="page-header-wrapper" class="wrapper clearfix">
-	        <h1 class="headermain"></h1>
+	        <h1 class="headermain">
+
+<img src="http://www.adsbangalore.com/user_images/logo_915_a7.gif">
+ </h1>
+<div align="left"> 
+</br>   	
+<h1>ARCADE RSDH </h1>
+<h2>St. John's National Academy of Health Science </h2>
+</div>
+
     	    <div class="headermenu">
         		<?php
 	        	    echo $OUTPUT->login_info();
