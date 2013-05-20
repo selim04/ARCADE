@@ -80,12 +80,32 @@ echo $OUTPUT->doctype() ?>
 </div>
 
     	    <div class="headermenu">
+
+
+
+<?php
+echo "<div id='innerrightinfo'>";
+                    if (isloggedin())
+                    {
+ 			echo ''.$OUTPUT->user_picture($USER, array('size'=>55)).'';
+ 			}
+ 			else {
+ 			?>
+ 			<img class="userpicture" src="<?php echo $OUTPUT->pix_url('image', 'theme')?>" />
+
+
         		<?php
-	        	    echo $OUTPUT->login_info();
-    	        	echo $OUTPUT->lang_menu();
-	        	    echo $PAGE->headingmenu;
-		        ?>
-	    	</div>
+ 			}
+            echo $OUTPUT->login_info();
+            echo $OUTPUT->lang_menu();
+            echo $PAGE->headingmenu;
+       		echo "<div class=\"ppin\"></div>";
+       echo "</div>";
+       			?>
+
+        	
+
+
 	    </div>
     </div>
 
