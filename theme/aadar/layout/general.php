@@ -79,43 +79,24 @@ echo $OUTPUT->doctype() ?>
         <?php if ($hasheading) { ?>
         <h1 class="headermain">
 
-<table>
-<tr>
-<td><img src="http://www.adsbangalore.com/user_images/logo_915_a7.gif"></td>
-<td>ARCADE RSDH 
-<p>St. John's National Academy of Health Science </p> 
-</td>
-</tr>
-</table>
-</h1>
-
+<img src="http://www.adsbangalore.com/user_images/logo_915_a7.gif">
+ </h1>
+<div align="left"> 
+</br>     
+<h1>ARCADE RSDH </h1>
+<h2>St. John's National Academy of Health Science </h2>
+</div>
      
 
+          <div class="headermenu">
+             <?php
 
-  <div class="headermenu">
-       <?php
-echo "<div id='innerrightinfo'>";
-                    if (isloggedin())
-                    {
- 			echo ''.$OUTPUT->user_picture($USER, array('size'=>55)).'';
- 			}
- 			else {
- 			?>
- 			<img class="userpicture" src="<?php echo $OUTPUT->pix_url('image', 'theme')?>" />
-
-
-        		<?php
- 			}
-            echo $OUTPUT->login_info();
-            echo $OUTPUT->lang_menu();
-            echo $PAGE->headingmenu;
-       		echo "<div class=\"ppin\"></div>";
-       echo "</div>";
-       			?>
-
-
-
-</div><?php } ?>
+             echo $OUTPUT->login_info();
+          //  if (!empty($PAGE->layout_options['langmenu'])) {
+                echo $OUTPUT->lang_menu();
+         //   }
+            echo $PAGE->headingmenu
+        ?></div><?php } ?>
 
         
 
