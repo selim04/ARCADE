@@ -78,15 +78,15 @@ echo $OUTPUT->doctype() ?>
 <td>ARCADE RSDH 
 <p>St. John's National Academy of Health Science </p> 
 </td>
-</tr>
+
 </table>
 </h1>
     	    
 
 <div class="headermenu">
 
-<?php
-echo "<div id='innerrightinfo'>";
+                    <?php
+
                     if (isloggedin())
                     {
  			echo ''.$OUTPUT->user_picture($USER, array('size'=>55)).'';
