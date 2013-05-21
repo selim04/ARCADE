@@ -67,6 +67,51 @@ echo $OUTPUT->doctype() ?>
     <title><?php echo $PAGE->title ?></title>
     <link rel="shortcut icon" href="<?php echo $OUTPUT->pix_url('favicon', 'theme')?>" />
     <?php echo $OUTPUT->standard_head_html() ?>
+
+	<style>
+
+.center
+{
+margin:auto;
+width:100%;
+top: 10px;
+height: 130px;
+}
+
+
+#innerrightinfo {
+	height: 120px;
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+
+#innerrightinfo img.userpicture {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #EEEEEE #DADADA #CCCCCC;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    float: right;
+    height: 58px;
+    margin-top: 17px;
+    padding: 8px 8px 17px;
+    width: 48px;
+}
+
+#innerrightinfo div.logininfo {
+    border-right: medium none;
+    float: right;
+    height: 43px;
+    margin-top: 70px;
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+    font-size: 100%;
+    font-weight: 300;
+}
+
+</style>
+
 </head>
 <body id="<?php p($PAGE->bodyid) ?>" class="<?php p($PAGE->bodyclasses.' '.join(' ', $bodyclasses)) ?>">
 <?php echo $OUTPUT->standard_top_of_body_html() ?>
@@ -81,7 +126,7 @@ echo $OUTPUT->doctype() ?>
 
 <img src="http://www.adsbangalore.com/user_images/logo_915_a7.gif">
  </h1>
-<div align="left"> 
+<div class="center"> 
 </br>     
 <h1>ARCADE RSDH </h1>
 <h2>St. John's National Academy of Health Science </h2>
@@ -90,6 +135,18 @@ echo $OUTPUT->doctype() ?>
 
           <div class="headermenu">
              <?php
+		echo "<div id='innerrightinfo'>";
+ 		if (isloggedin())
+                    {
+ 			echo ''.$OUTPUT->user_picture($USER, array('size'=>55)).'';
+ 			}
+ 			else {
+ 			?>
+ 			<img class="userpicture" src="<?php echo $OUTPUT->pix_url('image', 'theme')?>" />
+ 			<?php
+ 			}
+
+		
 
              echo $OUTPUT->login_info();
           //  if (!empty($PAGE->layout_options['langmenu'])) {
