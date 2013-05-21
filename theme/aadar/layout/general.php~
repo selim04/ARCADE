@@ -133,7 +133,7 @@ height: 130px;
 </div>
      
 
-          <div class="headermenu">
+          <div>
              <?php
 		echo "<div id='innerrightinfo'>";
  		if (isloggedin())
