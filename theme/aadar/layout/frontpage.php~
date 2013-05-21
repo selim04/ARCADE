@@ -132,7 +132,7 @@ height: 130px;
 </div>
 
                
-     <div class="headermenu">   	    
+     <div>   	    
 
 
           <?php
