@@ -319,7 +319,7 @@ $contextid = $context->id;
 <a href="https://twitter.com/‎">
 <img src="http://cdn3.iconfinder.com/data/icons/umar/Twitter%201.png">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://plus.google.com>
+<a href="https://plus.google.com/>
 <img src="http://www.audiocp.com/wp-content/uploads/Google-Plus-1-icon.png">
 
 
