@@ -329,7 +329,7 @@ $contextid = $context->id;
 
 </p>     
         <p> St. Johns National Academy of Health Science </p>
-
+        <p> This website is funded by the European Union Seventh Framework program (No. 281930)</p>  
         <?php /*echo page_doc_link(get_string('moodledocslink')) */?>
         </p>
 
