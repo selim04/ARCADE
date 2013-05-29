@@ -218,7 +218,7 @@ height: 130px;
     <?php if ($hasfooter) { ?>
     <div id="page-footer" class="clearfix">
         <p class="helplink">
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.concerto-sesac.eu/squelettes/images/home/logo_eu.gif">&nbsp;&nbsp;&nbsp;<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQii1haFski496FD2GkTiusZv7uJ5uexrfzO6Dj-oym6SkXl-K8">
 
 
      
