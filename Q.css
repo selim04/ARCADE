@@ -11,7 +11,7 @@
 	border:none;
 	text-align:left; /* reset align=center */
 }
-* html #wowslider-container1{ width:387px }
+* html #wowslider-container1{ /*width:387px*/ }
 #wowslider-container1 ul{
 	position:relative;
 	width: 10000%; 
