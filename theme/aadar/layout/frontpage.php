@@ -273,7 +273,7 @@ $contextid = $context->id;
                 <div id="region-pre" class="block-region">
                     <div class="region-content">
 
-<img src="http://www.arcade-project.org/_/rsrc/1326198335528/home/arcade_rsdh_badge_logo.png?height=200&width=200">
+<img src="http://www.arcade-project.org/_/rsrc/1326198335528/home/arcade_rsdh_badge_logo.png?height=200&width=200" />
                         <?php echo $OUTPUT->blocks_for_region('side-pre') ?>
                     </div>
                 </div>
