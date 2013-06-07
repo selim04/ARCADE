@@ -274,8 +274,11 @@ $contextid = $context->id;
                     <div class="region-content">
 
 <img src="http://www.arcade-project.org/_/rsrc/1326198335528/home/arcade_rsdh_badge_logo.png?height=200&width=200" />
-                        <?php echo $OUTPUT->blocks_for_region('side-pre') ?>
+                       
+
+                   <?php echo $OUTPUT->blocks_for_region('side-pre') ?>
                     </div>
+<img src="http://www.concerto-sesac.eu/squelettes/images/home/logo_eu.gif">&nbsp;&nbsp;&nbsp;<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQii1haFski496FD2GkTiusZv7uJ5uexrfzO6Dj-oym6SkXl-K8">
                 </div>
                 <?php } ?>
 
@@ -299,8 +302,7 @@ $contextid = $context->id;
     <div id="page-footer" class="wrapper">
         <p class="helplink">
 <p>
-<img src="http://www.concerto-sesac.eu/squelettes/images/home/logo_eu.gif">&nbsp;&nbsp;&nbsp;<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQii1haFski496FD2GkTiusZv7uJ5uexrfzO6Dj-oym6SkXl-K8">
-</br>     
+
        
             St. Johns National Academy of Health Science </br>
          This website is funded by the European Union Seventh Framework program (No. 281930)</br>
