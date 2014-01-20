@@ -122,7 +122,7 @@ height: 130px;
 	        
 
 <h1 class="headermain">
-<img src="http://www.adsbangalore.com/user_images/logo_915_a7.gif">
+<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJ1RzzNh7UO3_uBsDGg0j2qFj_DciNFpsqjO0cIPhdc1Ehdwsv">
  </h1>
 
 <div class="center"> 
