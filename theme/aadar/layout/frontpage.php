@@ -318,7 +318,7 @@ $contextid = $context->id;
 <img src="http://imaging.ubmmedica.com/all/editorial/icon-google-plus.jpg">
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="http://www.linkedin.com/">
-<img src="http://www.diduapp.com/images/linkedin_logo_small.jpg">
+<img src="https://infopeople.org/sites/all/themes/infopeople/social/linkedin.png">
         </p>
 </p>
         <?php
